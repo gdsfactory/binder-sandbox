@@ -1,8 +1,7 @@
 nbgitpuller
 
-# Data analytics
-numpy
-matplotlib
-pandas
 gdsfactory[full]
 gdsfactory[sipann]
+sax
+jax
+jaxlib
