@@ -4,3 +4,5 @@ nbgitpuller
 numpy
 matplotlib
 pandas
+gdsfactory[full]
+gdsfactory[sipann]
