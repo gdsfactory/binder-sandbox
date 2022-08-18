@@ -1,5 +1,6 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 git clone https://github.com/gdsfactory/gdsfactory.git
+ln -s  $HOME/gdsfactory/docs/notebooks notebooks 
 cd gdsfactory
 pip install -e .
 make gdslib
