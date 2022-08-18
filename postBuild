@@ -2,3 +2,4 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 git clone https://github.com/gdsfactory/gdsfactory.git
 cd gdsfactory
 make gdslib
+make meep

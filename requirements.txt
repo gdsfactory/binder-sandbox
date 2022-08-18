@@ -1,7 +1,7 @@
 nbgitpuller
-
 gdsfactory[full]
 gdsfactory[sipann]
+gdsfactory[tidy3d]
 sax
 jax
 jaxlib
