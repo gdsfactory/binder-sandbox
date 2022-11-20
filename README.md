@@ -1,6 +1,6 @@
 # gdsfactory binder
 
-Reduces launchtime for gdsfactory [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD)
+Launch [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD) for gdsfactory
 
 References:
 
