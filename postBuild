@@ -1,7 +1,20 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
-git clone https://github.com/gdsfactory/gdsfactory.git
+
+git clone https://github.com/gdsfactory/ubc.git --shallow-exclude=gh-pages
+git clone https://github.com/gdsfactory/gdsfactory.git --shallow-exclude=gh-pages
+git clone https://github.com/gdsfactory/skywater130.git --shallow-exclude=gh-pages
+
 ln -s  $HOME/gdsfactory/docs/notebooks notebooks 
-cd gdsfactory
-pip install -e .
-make gdslib
-make meep
+pip install -e ubc
+pip install -e skywater130
+pip install -e gdsfactory[docs,dev,full,gmsh,tidy3d,devsim,meow,sax]
+mamba install pymeep=*=mpi_mpich_* -y
+mamba install slepc4py=*=complex* -y
+pip install -e .[tidy3d]
+pip install jax jaxlib
+pip install --upgrade "protobuf<=3.20.1"
+pip install femwell
+pip install scikit-fem[all] --upgrade
+
+# make gdslib
+# make plugins
