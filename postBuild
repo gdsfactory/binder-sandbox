@@ -1,6 +1,5 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
-pip install jax jaxlib femwell
 pip install --upgrade "protobuf<=3.20.1"
 pip install scikit-fem[all] --upgrade
 pip install ubcpdk sky130 --upgrade
