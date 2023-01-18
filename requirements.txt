@@ -1,5 +1,1 @@
-nbgitpuller
 gdsfactory
-sax
-jax
-jaxlib
