@@ -1,9 +1,9 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
-# mamba install pymeep=*=mpi_mpich_* -y
-# mamba install slepc4py=*=complex* -y
-# pip install femwell ubcpdk sky130 --upgrade
-# pip install gdsfactory[full,gmsh,tidy3d,devsim,meow,sax] --upgrade
+mamba install pymeep=*=mpi_mpich_* -y
+mamba install slepc4py=*=complex* -y
+pip install femwell ubcpdk sky130 --upgrade
+pip install gdsfactory[full,gmsh,tidy3d,devsim,meow,sax] --upgrade
 
 git clone https://github.com/gdsfactory/ubc.git --shallow-exclude=gh-pages
 git clone https://github.com/gdsfactory/gdsfactory.git --shallow-exclude=gh-pages
