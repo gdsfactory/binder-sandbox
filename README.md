@@ -4,7 +4,7 @@ Launch [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfacto
 
 Includes open source pdks:
 
-- [UBCPDK](https://gdsfactory.github.io/ubc/README.html)
+- [SiEPIC EBeam UBCPDK](https://gdsfactory.github.io/ubc/README.html)
 - [skywater130](https://gdsfactory.github.io/skywater130/README.html)
 
 References:
