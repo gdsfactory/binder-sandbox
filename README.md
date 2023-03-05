@@ -1,6 +1,6 @@
 # gdsfactory binder
 
-Launch [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD) for gdsfactory training
+Launches [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD) for gdsfactory training
 
 Includes open source pdks:
 
