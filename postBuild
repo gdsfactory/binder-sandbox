@@ -9,7 +9,7 @@ pip install gplugins[database,devsim,femwell,gmsh,meow,meshwell,sax,tidy3d] --up
 git clone https://github.com/gdsfactory/gplugins.git 
 git clone https://github.com/gdsfactory/ubc.git 
 git clone https://github.com/gdsfactory/gdsfactory.git 
-git clone https://github.com/gdsfactory/skywater130.git --shallow-exclude=gh-pages
+git clone https://github.com/gdsfactory/skywater130.git 
 
 ln -s $HOME/gdsfactory/docs/notebooks notebooks_gdsfactory
 ln -s $HOME/ubc/docs/notebooks notebooks_ubc
