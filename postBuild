@@ -5,13 +5,12 @@ mamba install slepc4py=*=complex* -y
 pip install femwell ubcpdk sky130 --upgrade
 pip install gdsfactory[full,gmsh,tidy3d,devsim,meow,sax] --upgrade
 
-git clone https://github.com/gdsfactory/ubc.git --shallow-exclude=gh-pages
-git clone https://github.com/gdsfactory/gdsfactory.git --shallow-exclude=gh-pages
-git clone https://github.com/gdsfactory/skywater130.git --shallow-exclude=gh-pages
+git clone https://github.com/gdsfactory/gdsfactory.git 
+# git clone https://github.com/gdsfactory/skywater130.git --shallow-exclude=gh-pages
 
 ln -s  $HOME/gdsfactory/docs/notebooks notebooks_gdsfactory
-ln -s  $HOME/ubc/docs/notebooks notebooks_ubc
-ln -s  $HOME/skywater130/docs/notebooks notebooks_sky130
+# ln -s  $HOME/ubc/docs/notebooks notebooks_ubc
+# ln -s  $HOME/skywater130/docs/notebooks notebooks_sky130
 
 # git clone https://github.com/gdsfactory/gdslib.git -b main $HOME/.gdsfactory
 # make gdslib
