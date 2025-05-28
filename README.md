@@ -1,12 +1,18 @@
-# gdsfactory binder
+# GDS Factory Binder
 
-Launch [binder jupyter notebook environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD) for gdsfactory training
+Click to open GDS Factory in a [binder Jupyter Lab environment](https://mybinder.org/v2/gh/gdsfactory/binder-sandbox/HEAD).
 
-Includes open source pdks:
+Binder may take a moment to launch.
+
+Check out the notebooks in the *Notebooks* folder to learn how to design chips with GDS Factory.
+
+## Resources
+- [GDS Factory docs](https://gdsfactory.github.io/gdsfactory/).
+- Do more with [GDS Factory+](https://gdsfactory.com/) for enterprises.
+
+**Notes**
+
+The following open source PDKs are installed in the environment:
 
 - [SiEPIC EBeam UBCPDK](https://gdsfactory.github.io/ubc/README.html)
 - [skywater130](https://gdsfactory.github.io/skywater130/README.html)
-
-References:
-
-- https://discourse.jupyter.org/t/how-to-reduce-mybinder-org-repository-startup-time/4956
