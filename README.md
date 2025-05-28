@@ -6,6 +6,9 @@ Binder may take a moment to launch.
 
 Check out the notebooks in the *Notebooks* folder to learn how to design chips with GDS Factory.
 
+## Resources
+- [GDS Factory docs](https://gdsfactory.github.io/gdsfactory/).
+- Do more with [GDS Factory+](https://gdsfactory.com/) for enterprises.
 
 **Notes**
 
